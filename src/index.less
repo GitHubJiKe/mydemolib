@@ -1,0 +1,42 @@
+.thing {
+  .select-date {
+    height: 200px;
+    .dates {
+      width: 300px;
+      text-align: center;
+      span {
+        cursor: pointer;
+      }
+    }
+    .pane {
+      display: inline-block;
+      height: 254px;
+      overflow-y: scroll;
+      border-top: 1px solid #bbb;
+    }
+    .item {
+      width: 100px;
+      height: 20px;
+      text-align: center;
+      border-bottom: 1px solid #bbb;
+      border-left: 1px solid #bbb;
+      border-right: 1px solid #bbb;
+      cursor: pointer;
+    }
+    .item:hover {
+      background-color: yellowgreen;
+      color: red;
+    }
+    .item-selected {
+      width: 100px;
+      height: 20px;
+      text-align: center;
+      border-bottom: 1px solid #bbb;
+      border-left: 1px solid #bbb;
+      border-right: 1px solid #bbb;
+      cursor: pointer;
+      background-color: red;
+      color: white;
+    }
+  }
+}
