@@ -18,7 +18,7 @@
     "prepare": "tsdx build",
     "predeploy": "npm run build && cd example && npm run build",
     "deploy": "gh-pages -d ./example/dist",
-    "release": "np --no-yarn --no-tests --no-2fa"
+    "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -39,7 +39,7 @@
     "Android >= 4.4",
     "iOS >= 9"
   ],
-  "name": "mydemolib",
+  "name": "mydemolib22",
   "author": "PengfeiYuan",
   "module": "dist/mydemolib.esm.js",
   "devDependencies": {
